@@ -9,22 +9,22 @@ The topis covered in this topic are following.
     - Structure of the Repository
     - Project Dependencies
     
-# Data
+## Data
     https://openweathermap.org/api
-# Setup:
+## Setup:
     - Installed python 3.7.4
     - Pandas 1.2.4
     - gsutil 4.62
-# Managing Project Dependencies
-    - I used 'venv' for managing project dependencies and Python environments(virtual environment).
+## Managing Project Dependencies
+    I used 'venv' for managing project dependencies and Python environments(virtual environment).
     Venv comes with Python.
-# Structure of the Repository
+## Structure of the Repository
     |- readme.md
     |- src
         |etl.py
     |curated
         |output_file
-# Testing
+## Testing
 ETL testing will be added later part of the project
     
 
