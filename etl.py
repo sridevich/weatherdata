@@ -105,6 +105,8 @@ def get_previous_weather(api_key):
 
     clean_weather.sort_values('dt', inplace=True)    
     clean_weather.to_csv('curated_second.csv')
+  
+def merge_files():
     #Merge files
     first_file = pd.read_csv('curated_first.csv')
     second_file = pd.read_csv('curated_second.csv')
@@ -117,6 +119,7 @@ def get_previous_weather(api_key):
 def main():
     get_previous_weather(api_key)
     get_next_six_days_data(daily_api_key)
+    merge_files()
 if __name__=='__main__':
     main()
 
