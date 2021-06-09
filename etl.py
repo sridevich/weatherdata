@@ -5,8 +5,8 @@ import pandas as pd
 from datetime import *
 from numpy import logical_and
 
-api_key = '17ad6d4b14563f7352f20e32d3e8b942'
-daily_api_key = 'da1c1f110b4c6b47b06c35286251e512'
+api_key = ''
+daily_api_key = ''
 
 def clean_weather_data(api_result, frequency, location):
     #transform data
