@@ -21,6 +21,7 @@ The topis covered in this topic are following.
 ## Structure of the Repository
     readme.md
     etl.py
+    requirements.txt
 ## Testing
 ETL testing will be added later part of the project
     
