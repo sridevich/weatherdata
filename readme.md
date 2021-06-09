@@ -1,4 +1,4 @@
-# One Week Weather Data for Detroit and Los Angeles in June 
+# Weather Data for Detroit and Los Angeles
 
 This document describes the approach I took to writing ETL jobs using Python, Pandas, GCP storage and Biqquery for Weather data.
 I used openweathermap's One Call API.  I made API calls to get one week of data including previous days.  
