@@ -19,11 +19,8 @@ The topis covered in this topic are following.
     I used 'venv' for managing project dependencies and Python environments(virtual environment).
     Venv comes with Python.
 ## Structure of the Repository
-    |- readme.md
-    |- src
-        |etl.py
-    |curated
-        |output_file
+    readme.md
+    etl.py
 ## Testing
 ETL testing will be added later part of the project
     
